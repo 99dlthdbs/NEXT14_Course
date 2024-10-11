@@ -35,7 +35,7 @@ Next.js 앱을 만들려면, 터미널을 열고 프로젝트를 저장할 폴�
 npx create-next-app@latest nextjs-dashboard --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example" --use-pnpm
 ```
 
-**create-next-app** : Next.js 애플ㄹ케이션을 자동으로 설정해주는 **명령줄 도구(CLI)** 예요.
+**create-next-app** : Next.js 애플케이션을 자동으로 설정해주는 **명령줄 도구(CLI)** 예요.
 **--example** : 이 코스를 위한 예제 스타터 템플릿을 가져와서 프로젝트를 시작하는 거예요.
 
 쉽게 말하면, 이 명령어는 Next.js 프로젝트를 빠르게 만들고, 수업에 맞는  예시 프로젝트를 가져오는 역할을 해요.
@@ -59,6 +59,7 @@ cd nextjs-dashboard
 ### 폴더 구조
 
 프로젝트를 열어보면 다음과 같은 폴더 구조가 있다는 걸 알 수 있을 거예요.
+
 <img src='https://nextjs.org/_next/image?url=%2Flearn%2Fdark%2Flearn-folder-structure.png&w=3840&q=75' alt='folder structure' />
 
 - **/app** : 애플리케이션의 모든 경로(페이지), components, 그리고 로직이 담겨있는 폴더예요. 주로 이곳에서 작업하게 될 거예요.
@@ -123,7 +124,7 @@ export type Invoice = {
 ```
 
 **TypeScript** 를 사용하면 잘못된 데이터 형식을 실수로 전달하지 않도록 할 수 있어요.
-예를 들어, **invoice 금액**에 **숫자** 대신 **문자**를 전달하는 실수를 막을 수 잇어요.
+예를 들어, **invoice 금액**에 **숫자** 대신 **문자**를 전달하는 실수를 막을 수 있어요.
 
 
 >TypeScript 개발자라면 :
