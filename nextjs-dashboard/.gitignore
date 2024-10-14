@@ -36,9 +36,7 @@ yarn-error.log*
 next-env.d.ts
 
 # webstorm setting
-.idea
-.idea/*
+/.idea/
 
 # vscode setting
-.vscode
-.vscode/*
+/.vscode/

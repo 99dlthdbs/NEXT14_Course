@@ -1,0 +1,8 @@
+# webstorm setting
+/.idea/
+
+# vscode setting
+/.vscode/
+
+.env
+.env.*
